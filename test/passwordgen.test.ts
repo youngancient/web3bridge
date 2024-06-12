@@ -1,5 +1,7 @@
 // passwordGenerator.test.ts
-const generatePassword = require("../src/passwordgen");
+
+import { generatePassword } from "../src/passwordgen";
+
 
 describe('generatePassword', () => {
     test('generates a password of the specified length', () => {
