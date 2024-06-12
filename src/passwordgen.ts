@@ -1,6 +1,6 @@
 // passwordGenerator.ts
 
-module.exports = function generatePassword(length: number, useUppercase: boolean, useLowercase: boolean, useNumbers: boolean, useSpecialChars: boolean): string {
+export function generatePassword(length: number, useUppercase: boolean, useLowercase: boolean, useNumbers: boolean, useSpecialChars: boolean): string {
     const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const lowercase = 'abcdefghijklmnopqrstuvwxyz';
     const numbers = '0123456789';
